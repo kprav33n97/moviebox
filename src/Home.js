@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { useGlobalContext } from './context';
 
 const Home = () => {
+  const name = useGlobalContext(); 
   return (
-    <div>
-      Praveen
-    </div>
+    <>
+      <div>My Home Page</div>
+      <p>{name}</p>
+    </>
   )
 }
 
