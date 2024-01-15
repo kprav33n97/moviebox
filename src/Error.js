@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Search = () => {
+const Error = () => {
   return (
     <>
-      
+      Error
     </>
   )
 }
 
-export default Search
+export default Error
